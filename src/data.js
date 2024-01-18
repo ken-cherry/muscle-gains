@@ -10,7 +10,7 @@ export const navigation = [
     text: "About",
   },
   {
-    id: 1,
+    id: 3,
     to: "/newsletter",
     text: "Newsletter",
   },
