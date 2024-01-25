@@ -14,6 +14,11 @@ const navigation = [
   },
   {
     id: 3,
+    to: "/pricing",
+    text: "Pricing",
+  },
+  {
+    id: 4,
     to: "/newsletter",
     text: "Newsletter",
   },
