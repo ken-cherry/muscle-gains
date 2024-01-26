@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 
 import { prices } from "../data";
 
-const rates = prices[2];
+const rates = prices[0];
 
 const {
   id: id,
@@ -19,7 +19,7 @@ const validIncludes = Object.keys(rates)
 
 const Prices = () => {
   return (
-    <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+    <div className="bg-white mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
       <div className="p-8 sm:p-10 lg:flex-auto">
         <h3
           className="text-2xl font-bold tracking-tight text-gray-900"
@@ -38,7 +38,6 @@ const Prices = () => {
           role="list"
           className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
         >
-          {/* 1hr workout 3 days a week. */}
           {validIncludes.map((item, index) => {
             return (
               <li key={item} className="flex gap-x-3">

@@ -16,7 +16,7 @@ function Landing() {
               strongest version of yourself!
             </p>
             <button className="btn btn-primary">
-              <NavLink to="/pricing">Get Started</NavLink>
+              <NavLink to="/options">Get Started</NavLink>
             </button>
           </div>
         </div>
