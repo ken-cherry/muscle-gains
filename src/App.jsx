@@ -6,7 +6,7 @@ import {
   HomeLayout,
   Landing,
   Newsletter,
-  Pricing,
+  Options,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "pricing",
-        element: <Pricing />,
+        path: "options",
+        element: <Options />,
       },
       {
         path: "newsletter",

@@ -1,9 +1,8 @@
 import React from "react";
-import { CheckIcon } from "@heroicons/react/20/solid";
-// import { prices } from "../data";
-import Prices from "../components/Prices";
 
-const Pricing = () => {
+import { Prices } from "../components";
+
+const Options = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -21,4 +20,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Options;

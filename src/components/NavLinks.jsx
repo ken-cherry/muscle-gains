@@ -14,8 +14,8 @@ const navigation = [
   },
   {
     id: 3,
-    to: "/pricing",
-    text: "Pricing",
+    to: "/options",
+    text: "Options",
   },
   {
     id: 4,
