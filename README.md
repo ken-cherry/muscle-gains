@@ -5,7 +5,9 @@
 - Vite
 - React Router DOM Libraries
 - Tailwind CSS
+- Daisyui
 - React Icons
+- Hero Icons
 
 # Purpose of building this application.
 
@@ -26,30 +28,15 @@ npm install
 npm run dev
 ```
 
-<div className="navbar bg-base-100">
-      <div className="flex-1">
-        <a className="btn btn-ghost text-xl">Muscle Gains</a>
-      </div>
-      <div className="nav-center flex-1">
-        <div className="nav-links ">
-          <NavLinks />
-        </div>
-      </div>
-      <div className="flex-none hidden">
-        <button className="btn btn-square btn-ghost">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            className="inline-block w-5 h-5 stroke-current"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </button>
-      </div>
-    </div>
+{validIncludes.map((item, index) => {
+return (
+<li key={item} className="flex gap-x-3">
+<CheckIcon
+                  className="h-6 w-5 flex-none text-indigo-600"
+                  aria-hidden="true"
+                />
+{item}
+{index < validIncludes.length - 1 ? "," : ""}
+</li>
+);
+})}
