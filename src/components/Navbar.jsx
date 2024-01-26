@@ -1,14 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaBarsStaggered } from "react-icons/fa6";
 
 import NavLinks from "./NavLinks";
-import { NavLink } from "react-router-dom";
-
-const img = "../src/images/loganFlexMirror.jpg";
+import { logan } from "../data";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-300">
+    <nav className="bg-blue-200">
       <div className="navbar align-element">
         <div className="navbar-start">
           {/* TITLE */}
@@ -39,8 +38,8 @@ const Navbar = () => {
             role="button"
             className="btn btn-ghost btn-circle avatar"
           >
-            <div className="w-10 rounded-full">
-              <img alt="Tailwind CSS Navbar component" src={img} />
+            <div className="w-15 rounded-full">
+              <img alt="Tailwind CSS Navbar component" src={logan} />
             </div>
           </div>
         </div>
