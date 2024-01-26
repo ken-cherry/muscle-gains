@@ -6,22 +6,21 @@ import Includes from "../components/Includes";
 
 const Options = () => {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-blue-400 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Simple no-tricks pricing
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
+          <p className="mt-6 text-lg leading-8 text-gray-700">
+            Select the plan that best fits your goals
           </p>
         </div>
         {prices.map((item) => {
           const { id, title, text, price } = item;
           return (
             <div
-              className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
+              className="bg-white mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
               key={id}
             >
               <div className="p-8 sm:p-10 lg:flex-auto">
@@ -35,12 +34,7 @@ const Options = () => {
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
                 </div>
-                <ul
-                  role="list"
-                  className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
-                >
-                  <Includes />
-                </ul>
+                <Includes />
               </div>
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">

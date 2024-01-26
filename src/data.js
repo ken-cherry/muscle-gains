@@ -1,5 +1,8 @@
 export const logan = "../src/images/loganFlexMirror.jpg";
 export const pullUp = "../src/images/pullUpMd.jpg";
+export const energy = "../src/images/hydrateRed.svg";
+export const fitnessStats = "../src/images/fitnessStatsGreen.svg";
+export const curling = "../src/images/curlingYellow.svg";
 
 export const prices = [
   {

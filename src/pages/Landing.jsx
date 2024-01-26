@@ -6,7 +6,7 @@ function Landing() {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row ">
           <img src={logan} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">Get Built, with Logan</h1>
@@ -21,7 +21,7 @@ function Landing() {
           </div>
         </div>
       </div>
-      <div className="hero min-h-screen bg-blue-200">
+      <div className="hero min-h-screen bg-blue-200 ">
         <div className="hero-content flex-col lg:flex-row">
           <div>
             <h1 className="text-5xl font-bold">
@@ -33,7 +33,7 @@ function Landing() {
               ages and fitness levels
             </p>
             <button className="btn btn-primary">
-              <NavLink to="/pricing">Get Started</NavLink>
+              <NavLink to="/options">Get Started</NavLink>
             </button>
           </div>
           <img src={pullUp} className="max-w-sm rounded-lg shadow-2xl" />

@@ -1,9 +1,10 @@
 import React from "react";
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
+import { energy, fitnessStats, pullUp, curling } from "../data";
 
 const Newsletter = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32 min-h-screen">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
@@ -63,6 +64,11 @@ const Newsletter = () => {
             </div>
           </dl>
         </div>
+      </div>
+      <div className="flex flex-col place-content-center mt-8 lg:flex-row lg:mt-36 lg:justify-evenly">
+        <img src={energy} alt="energy drink" className="h-40" />
+        <img src={fitnessStats} alt="fitness stats" className="h-40" />
+        <img src={curling} alt="" className="h-40" />
       </div>
       <div
         className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
