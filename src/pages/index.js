@@ -4,3 +4,4 @@ export { default as HomeLayout } from "./HomeLayout";
 export { default as Landing } from "./Landing";
 export { default as Newsletter } from "./Newsletter";
 export { default as Options } from "./Options";
+export { default as GetStarted } from "./GetStarted";

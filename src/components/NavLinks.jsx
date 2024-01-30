@@ -22,6 +22,11 @@ const navigation = [
     to: "/newsletter",
     text: "Newsletter",
   },
+  {
+    id: 5,
+    to: "/getStarted",
+    text: "Get Started",
+  },
 ];
 
 const NavLinks = () => {

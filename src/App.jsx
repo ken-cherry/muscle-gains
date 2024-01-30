@@ -7,6 +7,7 @@ import {
   Landing,
   Newsletter,
   Options,
+  GetStarted,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "newsletter",
         element: <Newsletter />,
+      },
+      {
+        path: "getStarted",
+        element: <GetStarted />,
       },
     ],
   },
