@@ -3,6 +3,7 @@ export const pullUp = "../src/images/pullUpMd.jpg";
 export const energy = "../src/images/hydrateRed.svg";
 export const fitnessStats = "../src/images/fitnessStatsGreen.svg";
 export const curling = "../src/images/curlingYellow.svg";
+export const deadlift = "../src/images/deadliftLg.jpg";
 
 export const prices = [
   {
