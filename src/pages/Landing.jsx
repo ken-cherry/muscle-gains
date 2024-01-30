@@ -15,9 +15,10 @@ function Landing() {
               and performance. He is supportive, and will help you become the
               strongest version of yourself!
             </p>
-            <button className="btn btn-primary">
-              <NavLink to="/options">Get Started</NavLink>
-            </button>
+
+            <NavLink to="/options" className="btn btn-primary">
+              Get Started
+            </NavLink>
           </div>
         </div>
       </div>
