@@ -6,7 +6,7 @@ const GetStarted = () => {
   return (
     <>
       <form>
-        <div className="space-y-12 ">
+        <div className="space-y-12 px-2 bg-blue-400">
           <div className="border-b border-gray-900/10 pb-12 py-2">
             <h2 className="text-base font-semibold leading-7 text-gray-900 text-center">
               Personal Information
@@ -144,74 +144,43 @@ const GetStarted = () => {
             </div>
           </div>
 
-          <div className="border-b border-gray-900/10 pb-12">
-            <div className="mt-10 space-y-10">
+          <div className=" pb-12 grid justify-center">
+            <div className=" space-y-10">
               <fieldset>
-                <legend className="text-sm font-semibold leading-6 text-gray-900">
+                <legend className="text-md font-semibold leading-6 text-gray-900 text-center underline">
                   Goals
                 </legend>
-                <div className="mt-6 grid lg:grid-cols-3">
-                  <div className="relative flex gap-x-3">
-                    <div className="flex h-6 items-center">
-                      <input
-                        id="weightLoss"
-                        name="weightLoss"
-                        type="checkbox"
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                      />
-                    </div>
-                    <div className="text-sm leading-6">
-                      <label
-                        htmlFor="comments"
-                        className="font-medium text-gray-900"
-                      >
-                        Weight Loss
-                      </label>
-                    </div>
-                  </div>
-                  <div className="relative flex gap-x-3">
-                    <div className="flex h-6 items-center">
-                      <input
-                        id="leanMuscle"
-                        name="leanMuscle"
-                        type="checkbox"
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                      />
-                    </div>
-                    <div className="text-sm leading-6">
-                      <label
-                        htmlFor="candidates"
-                        className="font-medium text-gray-900"
-                      >
-                        Lean Muscle
-                      </label>
-                    </div>
-                  </div>
-                  <div className="relative flex gap-x-3">
-                    <div className="flex h-6 items-center">
-                      <input
-                        id="bulkUp"
-                        name="bulkUp"
-                        type="checkbox"
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                      />
-                    </div>
-                    <div className="text-sm leading-6">
-                      <label
-                        htmlFor="offers"
-                        className="font-medium text-gray-900"
-                      >
-                        Build Muscle
-                      </label>
-                    </div>
-                  </div>
+                <div className="mt-6 grid lg:grid-cols-3 gap-x-3 ">
+                  {goals.map((goal) => {
+                    const { id, title } = goal;
+                    return (
+                      <div className="relative flex gap-x-3" key={id}>
+                        <div className="flex h-6 items-center">
+                          <input
+                            id="weightLoss"
+                            name="weightLoss"
+                            type="checkbox"
+                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                          />
+                        </div>
+                        <div className="text-sm leading-6">
+                          <label
+                            htmlFor="comments"
+                            className="font-medium text-gray-900"
+                          >
+                            {title}
+                          </label>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </fieldset>
             </div>
           </div>
         </div>
 
-        <div className="mt-6 flex justify-center pb-2">
+        <div className=" flex justify-center pb-2 bg-blue-400">
           <button
             type="submit"
             className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -220,7 +189,6 @@ const GetStarted = () => {
           </button>
         </div>
       </form>
-      <form></form>
     </>
   );
 };

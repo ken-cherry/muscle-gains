@@ -5,6 +5,21 @@ export const fitnessStats = "../src/images/fitnessStatsGreen.svg";
 export const curling = "../src/images/curlingYellow.svg";
 export const deadlift = "../src/images/deadliftLg.jpg";
 
+export const heroPage = [
+  {
+    id: 1,
+    image: "../src/images/loganFlexMirror.jpg",
+    intro: "Get Built, with Logan",
+    text: "Logan delivers a dynamic fitness experience focused on strength and performance. He is supportive, and will help you become the strongest version of yourself!",
+  },
+  {
+    id: 2,
+    image: "../src/images/pullUpMd.jpg",
+    intro: "Train Better, Train with Attitude!",
+    text: "Whether you’re looking for guidance, accountability, or assistance with goal setting, personal training is great for people of all ages and fitness levels",
+  },
+];
+
 export const prices = [
   {
     id: 1,

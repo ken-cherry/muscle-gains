@@ -1,12 +1,11 @@
 import React from "react";
 import { logan, pullUp } from "../data";
-import { NavLink } from "react-router-dom";
 
 function Landing() {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row ">
+        <div className="hero-content flex-col lg:flex-row  ">
           <img src={logan} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">Get Built, with Logan</h1>
@@ -15,10 +14,6 @@ function Landing() {
               and performance. He is supportive, and will help you become the
               strongest version of yourself!
             </p>
-
-            <NavLink to="/options" className="btn btn-primary">
-              Get Started
-            </NavLink>
           </div>
         </div>
       </div>
@@ -33,9 +28,6 @@ function Landing() {
               with goal setting, personal training is great for people of all
               ages and fitness levels
             </p>
-            {/* <button className="btn btn-primary">
-              <NavLink to="/options">Get Started</NavLink>
-            </button> */}
           </div>
           <img src={pullUp} className="max-w-sm rounded-lg shadow-2xl" />
         </div>
