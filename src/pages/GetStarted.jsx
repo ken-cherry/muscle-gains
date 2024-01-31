@@ -1,6 +1,6 @@
 import React from "react";
 
-import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import { goals } from "../data";
 
 const GetStarted = () => {
   return (
@@ -150,12 +150,12 @@ const GetStarted = () => {
                 <legend className="text-sm font-semibold leading-6 text-gray-900">
                   Goals
                 </legend>
-                <div className="mt-6 space-y-6">
+                <div className="mt-6 grid lg:grid-cols-3">
                   <div className="relative flex gap-x-3">
                     <div className="flex h-6 items-center">
                       <input
-                        id="comments"
-                        name="comments"
+                        id="weightLoss"
+                        name="weightLoss"
                         type="checkbox"
                         className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                       />
@@ -172,8 +172,8 @@ const GetStarted = () => {
                   <div className="relative flex gap-x-3">
                     <div className="flex h-6 items-center">
                       <input
-                        id="candidates"
-                        name="candidates"
+                        id="leanMuscle"
+                        name="leanMuscle"
                         type="checkbox"
                         className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                       />
@@ -190,8 +190,8 @@ const GetStarted = () => {
                   <div className="relative flex gap-x-3">
                     <div className="flex h-6 items-center">
                       <input
-                        id="offers"
-                        name="offers"
+                        id="bulkUp"
+                        name="bulkUp"
                         type="checkbox"
                         className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                       />
@@ -201,7 +201,7 @@ const GetStarted = () => {
                         htmlFor="offers"
                         className="font-medium text-gray-900"
                       >
-                        Bulk Up
+                        Build Muscle
                       </label>
                     </div>
                   </div>

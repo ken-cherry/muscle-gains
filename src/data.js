@@ -33,3 +33,42 @@ export const prices = [
     includes4: "Weekly Measurements",
   },
 ];
+
+export const goals = [
+  {
+    id: 1,
+    title: "Weight Loss",
+  },
+  {
+    id: 2,
+    title: "Lean Muscle",
+  },
+  {
+    id: 3,
+    title: "Build Muscle",
+  },
+  {
+    id: 4,
+    title: "Improve Mobility",
+  },
+  {
+    id: 5,
+    title: "Strength",
+  },
+  {
+    id: 6,
+    title: "2x Body Weight Deadlift",
+  },
+  {
+    id: 7,
+    title: "Endurance",
+  },
+  {
+    id: 8,
+    title: "Gain Confidence",
+  },
+  {
+    id: 9,
+    title: "Run 5k",
+  },
+];
