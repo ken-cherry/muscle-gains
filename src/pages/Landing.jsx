@@ -35,7 +35,7 @@ function Landing() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: "url(../src/images/deadliftLg.jpg)",
+          backgroundImage: "url(../images/deadliftLg.jpg)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
