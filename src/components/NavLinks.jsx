@@ -7,11 +7,11 @@ const navigation = [
     to: "/",
     text: "Home",
   },
-  {
-    id: 2,
-    to: "/about",
-    text: "About",
-  },
+  // {
+  //   id: 2,
+  //   to: "/about",
+  //   text: "About",
+  // },
   {
     id: 3,
     to: "/options",
