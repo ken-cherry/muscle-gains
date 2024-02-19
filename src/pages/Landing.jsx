@@ -5,7 +5,7 @@ function Landing() {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row  ">
+        <div className="hero-content flex-col lg:flex-row">
           <img src={logan} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">Get Built, with Logan</h1>

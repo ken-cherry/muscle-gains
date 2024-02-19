@@ -5,3 +5,6 @@
 :root {
   min-width: 422px;
 }
+.hero-content {
+  max-width: 60rem;
+}

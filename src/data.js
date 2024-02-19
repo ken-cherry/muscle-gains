@@ -26,26 +26,34 @@ export const prices = [
     title: "Monthly-Basic",
     text: "Great for those that feel comfortable planning their own meals.",
     price: 900,
-    includes1: "1hr workout 3 days a week",
+    includes: [
+      {
+        workout: "1hr workout 3 days a week",
+      },
+    ],
   },
   {
     id: 2,
     title: "Monthly-Intermediate",
     text: "Great for those that want help with their diet planning.",
     price: 1200,
-    includes1: "1hr workout 3 days a week",
-    includes2: "Meal Planning",
-    includes3: "Trainer maintained log",
+    includes: [
+      {
+        workout: "2hr workout 3 days a week",
+        meals: "Meal Planning",
+        log: "Trainer maintained log",
+      },
+    ],
   },
   {
     id: 3,
     title: "Monthly-Committed",
     text: "Ideal for serious competitors",
     price: 2000,
-    includes1: "2hr workout 5 days a week",
-    includes2: "Meal Planning",
-    includes3: "Trainer maintained log",
-    includes4: "Weekly Measurements",
+    workout: "2hr workout 5 days a week",
+    meals: "Meal Planning",
+    log: "Trainer maintained log",
+    measurements: "Weekly Measurements",
   },
 ];
 
