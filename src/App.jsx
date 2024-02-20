@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import {
-  About,
+  // About,
   Error,
   HomeLayout,
   Landing,
