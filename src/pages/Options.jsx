@@ -4,7 +4,6 @@ import { prices } from "../data";
 import Includes from "../components/Includes";
 import { NavLink } from "react-router-dom";
 import { CheckIcon } from "@heroicons/react/20/solid";
-// import { Prices } from "../components";
 
 const Options = () => {
   return (
@@ -36,8 +35,6 @@ const Options = () => {
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
                 </div>
-                {/* <Includes /> */}
-
                 <ul
                   role="list"
                   className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"

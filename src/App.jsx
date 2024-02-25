@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import {
-  // About,
   Error,
   HomeLayout,
   Landing,
@@ -20,10 +19,6 @@ const router = createBrowserRouter([
         index: true,
         element: <Landing />,
       },
-      // {
-      //   path: "about",
-      //   element: <About />,
-      // },
       {
         path: "options",
         element: <Options />,

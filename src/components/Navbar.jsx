@@ -10,11 +10,9 @@ const Navbar = () => {
     <nav className="bg-blue-200">
       <div className="navbar align-element">
         <div className="navbar-start">
-          {/* TITLE */}
           <NavLink to="/" className="hidden lg:flex text-3xl font-bold">
             Muscle Gains
           </NavLink>
-          {/* DROPDOWN */}
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <FaBarsStaggered className="h-6 w-6" />
