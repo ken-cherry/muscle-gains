@@ -1,5 +1,5 @@
 import React from "react";
-import { logan, pullUp } from "../data";
+import { logan, pullUp, logan2 } from "../data";
 
 function Landing() {
   return (
@@ -29,7 +29,7 @@ function Landing() {
               ages and fitness levels
             </p>
           </div>
-          <img src={pullUp} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={logan2} className="max-w-sm rounded-lg shadow-2xl" />
         </div>
       </div>
       <div

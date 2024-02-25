@@ -4,6 +4,7 @@ export const energy = "../images/hydrateRed.svg";
 export const fitnessStats = "../images/fitnessStatsGreen.svg";
 export const curling = "../images/curlingYellow.svg";
 export const deadlift = "../images/deadliftLg.jpg";
+export const logan2 = "../images/logan2.jpg";
 
 export const heroPage = [
   {
